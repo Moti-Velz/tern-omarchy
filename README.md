@@ -75,6 +75,19 @@ reachable by its keys:
 hyprctl eval 'tern_nav.press("SUPER + LEFT")'
 ```
 
+## Agent desktop
+
+For agents in your Tern panes that do computer use (launch, click, type, screenshot), install
+[agent-desktop](https://github.com/Moti-Velz/agent-desktop). It runs their GUI work in a hidden
+nested Hyprland with its own cursor and focus, so they never steal your focus or flicker your
+screen while you work in Tern:
+
+```sh
+npx skills add Moti-Velz/agent-desktop
+```
+
+Its README covers the one-line Hyprland rule it needs.
+
 ## Notes
 
 - Tern's preset uses Super+Shift+arrows and Super+Alt(+Shift)+←/→. That's why those actions reach
